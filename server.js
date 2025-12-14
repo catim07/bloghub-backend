@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:5173", "http://127.0.0.1:5173","https://bloghub-frontend-juan.netlify.app"],
+  origin: ["http://localhost:5173", "http://127.0.0.1:5173","https://bloghub-frontend-juan.netlify.app","https://bloghub.netlify.app",],
   credentials: true
 }));
 app.use(express.json({ limit: "10mb" }));
